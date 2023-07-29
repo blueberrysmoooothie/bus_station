@@ -1,6 +1,8 @@
 import requests
 import json
 
+# import urllib.parse as codec
+
 
 class BusStation:
     def __init__(self):
@@ -18,8 +20,8 @@ class BusStation:
         json_txt = requests.get(stid_url).text
         stations_json = json.loads(json_txt)["body"]
 
-        for station in stations_json:
-            print(station)
+        # for i in range(len(stations_json)):
+        #     stations_json[i]['bsNm'] = codec.unquote(stations_json[i]['bsNm'])
 
         return stations_json
 
@@ -32,7 +34,7 @@ class BusStation:
         bus_txt = requests.get(station_url).text
         bus_info = json.loads(bus_txt)["body"]["list"]
         # print(station_info)
-        for bus in bus_info:  # stock_data는 'data' key값에 모든 정보가 들어가 있다.
-            print(bus)
+        # for i in range(len(bus_info)):
+        #     bus_info[i]['bsNm'] = codec.unquote(bus_info[i]['bsNm'])
 
         return bus_info
