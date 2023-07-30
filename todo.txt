@@ -2,6 +2,7 @@
 2. 근데 정류장 검색하는 방법 간단하게 사용하도록 바꿔야할듯 지금은 일단 전부 다 불러옴 - done - 
 
 3. 이제 이거를 wear 기어에 넣어서  확인가능하도록
+    - java 선택이 안돼서 kotlin으로 해야할듯...;;
 4. 일정 시간마다 동기화 되도록 하기
 
 java로 api 호출 하기
@@ -25,4 +26,8 @@ flask 서버에서 필요정보만 반환하도록 mathod 수정
     - 정류소 명 상단 표시
     - 버스별 남은시간, 현재위치 하단 표시
     
+
+5. 근처 버스 정류장 찾기
+
+
 https://velog.io/@leeyejin1231/%EA%B0%A4%EB%9F%AD%EC%8B%9C-%EC%9B%8C%EC%B9%98-%EB%B2%84%EC%8A%A4-%EB%8F%84%EC%B0%A9%EC%8B%9C%EA%B0%84-%ED%99%95%EC%9D%B8-%EC%95%B1-%EB%A7%8C%EB%93%A4%EA%B8%B0-1.-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%83%9D%EC%84%B1-Open-API
