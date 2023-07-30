@@ -1,8 +1,13 @@
+구글 가이드 라인 
+    - https://developer.android.com/training/wearables/principles?hl=ko&continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fwear%3Fhl%3Dko%23article-https%3A%2F%2Fdeveloper.android.com%2Ftraining%2Fwearables%2Fprinciples
+
 1. 대구 버스 도착 정보 api..? (비공식) 암튼 url로 연결해서 정보 받아옴
 2. 근데 정류장 검색하는 방법 간단하게 사용하도록 바꿔야할듯 지금은 일단 전부 다 불러옴 - done - 
 
 3. 이제 이거를 wear 기어에 넣어서  확인가능하도록
     - java 선택이 안돼서 kotlin으로 해야할듯...;;
+    - https://wikidocs.net/173859
+    - https://ttottoro.tistory.com/537
 4. 일정 시간마다 동기화 되도록 하기
 
 java로 api 호출 하기
