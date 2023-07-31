@@ -17,7 +17,6 @@ def get_station_info(station_keyword):
 @app.route("/get_bus_info/<station_id>", methods=["GET"])
 def get_bus_info(station_id):
     bus_info = BusStation.get_bus_info(station_id)
-    print(bus_info)
     return bus_info
 
 
