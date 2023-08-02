@@ -10,18 +10,27 @@
     - https://ttottoro.tistory.com/537
 
     - ui 만들기
-        - 하단으로 스크롤 할 수 있도록 만들기- done - 
+        - 하단으로 스크롤 할 수 있도록 만들기 - done - 
         - 동적으로 검색결과 출력 되도록- done - 
         - 결과 터치시 현재현황 페이지로 이동 구현- done - 
 
 
 4. 일정 시간마다 동기화 되도록 하기
+    - 그냥 동기화 버튼을 만듦  - done - 
 
 5. 즐겨찾기 해둔 정류장 먼저 표시되도록
+    - 일단 했는데 내일 테스트
 
-kotlin으로 api 호출 하기
+6. 즐겨찾기 기능 로컬 DB사용 or json 파일로 저장
+    - 별모양 누르면 추가/ 삭제 되도록
+    - https://crazykim2.tistory.com/648
+    - https://curryyou.tistory.com/387
+
+kotlin으로 api 호출 하기  - done - 
 flask 서버에서 필요정보만 반환하도록 mathod 수정 -done-
     - https://se0r1-tae27.tistory.com/106
+
+
 
 
 요구사항
@@ -29,7 +38,7 @@ flask 서버에서 필요정보만 반환하도록 mathod 수정 -done-
 0. 즐겨찾기 해둔 정류장 표시
 
 1. 검색어 입력 
-    - 정류소, 버스 찾기
+    - 정류소, 버스 찾기 
     - 리스트 반환- done - 
     - 정류소, 버스 검색 종류 선색 버튼?
     - https://velog.io/@l2hyunwoo/Android-%EA%B8%B0%EB%8A%A5-%EA%B5%AC%ED%98%84-3
