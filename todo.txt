@@ -4,7 +4,7 @@
 1. 대구 버스 도착 정보 api..? (비공식) 암튼 url로 연결해서 정보 받아옴 -done-
 2. 근데 정류장 검색하는 방법 간단하게 사용하도록 바꿔야할듯 지금은 일단 전부 다 불러옴 - done - 
 
-3. 이제 이거를 wear 기어에 넣어서  확인가능하도록
+3. 이제 이거를 wear 기어에 넣어서  확인가능하도록  - done - 
     - java 선택이 안돼서 kotlin으로 해야할듯...;;
     - https://wikidocs.net/173859
     - https://ttottoro.tistory.com/537
@@ -19,14 +19,14 @@
     - 그냥 동기화 버튼을 만듦  - done - 
 
 5. 즐겨찾기 해둔 정류장 먼저 표시되도록 - done - 
-    - 일단 했는데 내일 테스트
 
-6. 즐겨찾기 기능 로컬 DB사용 or json 파일로 저장
+6. 즐겨찾기 기능 로컬 DB사용 or json 파일로 저장 or preference 사용  - done - 
     - json 파일 저장이 안됨....
     - 나중에 휴대폰 연동해서 내부 저장소에 저장하는 방법 찾기
     - 별모양 누르면 추가/ 삭제 되도록 - done - 
     - https://crazykim2.tistory.com/648
     - https://curryyou.tistory.com/387
+    - https://youngdroidstudy.tistory.com/entry/Kotlin-%EC%BD%94%ED%8B%80%EB%A6%B0%EC%9D%98-SharedPreferences-%EB%9E%80
 
 kotlin으로 api 호출 하기  - done - 
 flask 서버에서 필요정보만 반환하도록 mathod 수정 -done-
